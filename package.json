@@ -1,0 +1,16 @@
+{
+  "name": "google-cloud-pubsub-to-sql-particle-io",
+  "version": "1.0.0",
+  "description": "Store particle.io gcloud pub/sub messages to gcloud hosted sql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Gallacher <me@tomg.co>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.2.0",
+    "moment": "^2.15.0",
+    "mysql": "^2.11.1"
+  }
+}
